@@ -2,8 +2,20 @@ from fastapi import FastAPI
 from routers import products, users
 from fastapi.staticfiles import StaticFiles
 
+## RUN 
+## fastapi dev main.py
+
+
+## ACTIVATE
+## source venv/bin/activate
+
+## DESACTIVATE
+## deactivate
+
 
 app = FastAPI()
+
+
 
 ## Routers
 
